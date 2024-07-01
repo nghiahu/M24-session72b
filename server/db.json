@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Anh Bui"
+    },
+    {
+      "id": "2",
+      "name": "Anh Bui"
+    },
+    {
+      "id": "1380",
+      "name": "Duy Bùi"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Kiến thức quan trọng về ReactJs",
+      "thumbnail": "https://s3-sgn09.fptcloud.com/codelearnstorage/Upload/Blog/react-js-co-ban-phan-1-63738082145.3856.jpg",
+      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quae sint itaque assumenda, corporis laboriosam quaerat minima debitis laudantium ratione aspernatur earum quasi provident natus consequatur odio. Perferendis, quia quaerat!",
+      "category": "Lập trình web",
+      "createdAt": "Nghĩa",
+      "updateAt": "15/02/2024",
+      "status": false
+    },
+    {
+      "id": "2",
+      "title": "Ngôn ngữ lập trình Java",
+      "thumbnail": "https://winzone.vn/images/blog/Java-Logo.png",
+      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quae sint itaque assumenda, corporis laboriosam quaerat minima debitis laudantium ratione aspernatur earum quasi provident natus consequatur odio. Perferendis, quia quaerat!",
+      "category": "Lập trình web",
+      "createdAt": "Trang",
+      "updateAt": "16/02/2024",
+      "status": true
+    },
+    {
+      "id": "9ea1",
+      "title": "React Boostrap",
+      "thumbnail": "https://intech.vietnamworks.com/media/gallery/2023/03/30/642503e88f16c.jpg",
+      "content": "",
+      "category": "lập trình wed",
+      "createdAt": "Nghĩa",
+      "updateAt": "2024-06-27",
+      "status": false
+    },
+    {
+      "id": "ff0b",
+      "title": "Ngôn ngữ lập trình python",
+      "thumbnail": "https://statics.cdn.200lab.io/2023/04/Python-la-gi.png",
+      "content": "",
+      "category": "Lập trình phần mền ",
+      "createdAt": "Nghĩa",
+      "updateAt": "28/6/2024",
+      "status": true
+    }
+  ]
+}

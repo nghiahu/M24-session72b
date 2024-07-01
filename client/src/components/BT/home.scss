@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 75%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.active{
+    color: rgb(39, 116, 231) !important;
+    border-bottom: 2px solid rgb(39, 116, 231);
+    padding-bottom: 10px;
+}
+.arl{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    color: rgb(49, 48, 48);
+    font-size: 16px;
+    position: absolute;
+    .arlListPost{
+        color: rgb(49, 48, 48);
+        text-decoration: none;
+    }
+    .arlAddPost{
+        color: rgb(49, 48, 48);
+        text-decoration: none;
+    }
+}
+.formlistPost{
+    margin-top: 50px;
+    padding-top: 50px;
+    .InppAndSort{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        padding-left: 65%;
+        .selSort{
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid rgb(78, 75, 75);
+            color: rgb(78, 75, 75);
+        }
+        .inpAddPost{
+            width: 50%;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid rgb(78, 75, 75);
+            padding-left: 2%;
+        }
+        .iconReser{
+            font-size: 25px;
+            color: rgb(78, 75, 75);
+        }
+        
+    }
+    .tablePost{
+        margin-top: 25px;
+        border: 1px solid rgb(205, 203, 203);
+        width: 98%;
+        margin-left: 1%;
+        .btnFuncion{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        .btnLock{
+            padding: 5px 10px;
+            border: 1px solid rgb(224, 47, 47);
+            color: rgb(224, 47, 47);
+            border-radius: 5px;
+        }
+        .btnUnLock{
+            padding: 5px 10px;
+            border: 1px solid rgb(88, 224, 47);
+            color: rgb(88, 224, 47);
+            border-radius: 5px;
+        }
+        .btnWatch{
+            padding: 5px 10px;
+            border: 1px solid rgb(47, 85, 224);
+            color: rgb(47, 85, 224);
+            border-radius: 5px;
+        }
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 201, 201);
+    margin-top: 15px;
+    padding: 15px 30px;
+    .footert{
+        display: flex;
+        align-items: center;
+    }
+    .footertew{
+        border: 1px solid black;
+        margin-right: 20px;
+        padding: 5px;
+        background-color: whitesmoke;
+        color: rgb(68, 65, 65);
+    }
+    .divFoots{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+}
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+th{
+    border: 1px solid rgb(205, 203, 203);
+    border-collapse: collapse;
+    padding: 10px 0px;
+    background-color: rgb(203, 201, 201);
+}
+td{
+    border: 1px solid rgb(205, 203, 203);
+    border-collapse: collapse;
+    padding-left: 20px;
+    width: 20%;
+}
+th,td:first-child{
+    width: 1% !important;
+    padding-left: 4px !important;
+}
+// Modal
+.background{
+    width: 100%;
+    background-color: rgb(108, 102, 102,0.5);
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+.formWarn{
+    border: 1px solid rgb(165, 161, 161);
+    width: 35%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    position: fixed;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 35%;
+    z-index: 1;
+    .titleWarning{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .contentWaring{
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;      
+        align-items: center;  
+        color: rgb(42, 41, 41);
+        border-bottom: 1px solid rgb(209, 202, 202);
+        padding-bottom: 20px;
+        .iconWarn{
+            color: rgb(232, 208, 23);
+            font-size: 30px;
+        }
+    }
+    .btnCancel{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 88%;
+        padding: 8px 3%;
+        border: 1px solid rgb(191, 185, 185);
+    }
+}
+}
+// Modal
+.backgroundConfirm{
+    width: 100%;
+    background-color: rgb(108, 102, 102,0.5);
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+    .formConfirm{
+        border: 1px solid rgb(165, 161, 161);
+        width: 35%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        position: fixed;
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 35%;
+        z-index: 1;
+        .titleConfirm{
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+        .contentConfirm{
+            display: flex;
+            margin-top: 30px;
+            gap: 10px;      
+            align-items: center;  
+            color: rgb(42, 41, 41);
+            border-bottom: 1px solid rgb(209, 202, 202);
+            padding-bottom: 20px;
+        .iconConfirm{
+            color: rgb(232, 208, 23);
+            font-size: 30px;
+            }
+        }  
+        .btnConfirm{
+            display: flex;
+            gap: 15px;
+            justify-content: end;
+            align-items: end;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            .btnCancelCon{
+                padding: 8px;
+                border: 1px solid rgb(191, 185, 185);
+            }
+            .btnConfirm{
+                padding: 8px;
+                border: none;
+                background-color: rgb(50, 117, 217);
+                border-radius:5px ;
+                color: white;
+            }
+        }
+    }
+}
